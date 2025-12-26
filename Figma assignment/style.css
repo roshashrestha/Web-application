@@ -1,0 +1,282 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+.page {
+    background-color:#eeeeee;
+    display:flex;
+    justify-content:center;
+    padding: 20px 0;
+}
+
+.right-panel {
+    position: absolute;
+    top: 0;
+    height:850px;
+    right: 0;
+    width: 50%;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop-1
+{
+    position:relative;
+    width:1400px;
+    height:850px;
+    background-color: white;
+}
+
+.digital
+{
+    position:absolute;
+    width:87px;
+    height:35px;
+    top:86px;
+    left:86px;
+    color:#3751FE;
+    font-size:30px;
+    font-family:'Roboto',sans-serif;
+    font-weight:700;
+    line-height:30px;
+    letter-spacing:0;
+}
+
+.text1
+{
+    position:absolute;
+    width:557px;
+    height:108px;
+    top:200px;
+    left:86px;
+    color:#3751FE;
+    font-size:36px;
+    font-family:'Open Sans',sans-serif;
+    font-weight:700;
+    line-height:36px;
+    letter-spacing:0;
+}
+
+.text2
+{
+    position:absolute;
+    width:362px;
+    height:21px;
+    top:300px;
+    left:86px;
+    color:#00000099;
+    font-size:18px;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    line-height:18px;
+    letter-spacing:0;
+}
+
+.email-section {
+    position: absolute;
+    top: 350px;
+    left: 86px;
+    width: 600px;
+    height:74px;
+    border:1px;
+}
+
+/* title */
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: #6b4eff;
+    margin-bottom: 8px;
+}
+
+.diamond {
+    font-size: 14px;
+}
+
+/* card */
+.email-card {
+    width: 100%;
+    background-color: #ffffff;
+
+    border: 1px solid #d1d1d1;
+    border-left: 4px solid #3751FE;
+
+    /* box-sizing: border-box; 🔑 REQUIRED */
+}
+
+/* fields */
+.field {
+    padding: 12px 16px;
+}
+
+.field label {
+    display: block;
+    font-size: 18px;
+    color: #0000009C;
+    margin-bottom: 6px;
+}
+
+.divider {
+    height: 1px;
+    background: #d1d1d1;
+}
+
+.email-value{
+    width:171px;
+    height:21px;
+    top:39px;
+    left:27px;
+    font-family:'Roboto',sans-serif;
+    font-weight:500;
+    font-size:18px;
+    line-height:100%;
+    color:#3751FE;
+}
+
+.pass-value{
+    width:152px;
+    height:21px;
+    font-family:'Roboto',sans-serif;
+    font-weight:500;
+    font-size:18px;
+    line-height:100%;
+    color:#3751FE;
+}
+
+.options{
+    position: absolute;
+    top: 540px;          /* adjust to match your layout */
+    left: 118px;
+    width: 570px;        /* same width as email box */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox label{
+    width:118px;
+    height:21px;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    font-size:18px;
+    line-height:100%;
+    color:#0000009C;
+}
+
+.forgot-password
+{
+    text-align: right;
+    color:#0000009C;
+    font-family:'Roboto',sans-serif;
+    font-size:18px;
+}
+
+.button-row {
+    position: absolute;
+    top: 620px;      /* adjust to match your layout */
+    left: 85px;
+
+    display: flex;
+    gap: 24px;
+}
+
+.btn{
+    font-family:'Roboto',sans-serif;
+    font-size:18px;
+}
+
+.btn-login {
+    background-color: #3751FE;   /* matches Figma blue */
+    color: #ffffff;
+    width:129px;
+    height:54px;
+    border: none;
+}
+
+.btn-signup
+{
+    background-color: #FFFFFF;   /* matches Figma blue */
+    color:#0C31F1;
+    width:129px;
+    height:54px;
+    border: 1px solid#3751FE;
+}
+
+.orpart
+{
+    position: absolute;
+    top: 730px;          /* adjust if needed */
+    left: 86px;
+    width: 554px;        /* same as email + buttons */
+
+    display: flex;
+    justify-content: space-between;
+    /* gap:80px; */
+    /* align-items: center; */
+
+    .text{
+        margin: 0;                 
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        color: #0000009C;
+
+    }
+}
+.social{
+    display: flex;
+    gap: 80px; 
+}
+.social a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    color:#3751FE;
+    text-decoration: none;
+}
+
+.nav{
+    position:absolute;
+    display:flex;
+    top:86px;
+    left:1000px;
+    gap: 48px;
+    align-items: center;
+}
+
+.nav a {
+    font-family:'Roboto',sans-serif;
+    text-decoration: none;
+    padding-bottom: 6px;
+    color:#0000009C;
+    font-size:24px;
+}
+
+.nav a.active {
+  border-bottom: 3px solid #3751FE;
+}
+
+.details{
+    /* position:absolute; */
+    display:flex;
+    top:86px;
+    justify-content:center;
+    font-size:24px;
+    font-family:'Roboto',sans-serif;
+    color:#0000009C;
+}
+
