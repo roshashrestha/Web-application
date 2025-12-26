@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display:grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns:1fr 1fr;
+
+}
+
+.item1
+{
+    grid-row:1/2;
+    grid-column:1/2;
+    background-color:white;
+}
+
+.item2
+{
+    grid-row:1/2;
+    grid-column:2/3;
+    background-color:white;
+}
+
+.item3 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    background-color:white;
+}
+
+.item4 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    background-color: white;
+}
